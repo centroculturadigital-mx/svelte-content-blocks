@@ -1,53 +1,6 @@
 <script>
 
-let blocks = [
-    {
-        "type": "h1",
-        "data": {
-            "text": "blabla"
-        }
-    },
-    {
-        "type": "h2",
-        "data": {
-            "text": "subtitulo....blabla"
-        }
-    },
-    {
-        "type": "p",
-        "data": {
-            "text": "Duis tempor do dolore velit."
-        }
-    },
-    {
-        "type": "p",
-        "data": {
-            "text": "Duis tempor do dolore velit."
-        }
-    },
-    {
-        "type": "img",
-        "data": {
-            "src": "http://fakeimg.pl/300x200",
-            "alt": "img placeholder",
-        }
-    },
-    {
-        "type": "dl",
-        "data": {
-            "items": [
-				{
-					"dt": "termino1",
-					"dd": "Proident magna aute ad ipsum cillum commodo aliquip voluptate incididunt.",
-				},
-				{
-					"dt": "termino2",
-					"dd": "Consequat aliqua ullamco pariatur aliquip commodo exercitation et ex veniam consectetur.",
-				}
-			]
-        }
-    }
-]
+export let blocks
 
 </script>
 
@@ -95,5 +48,4 @@ let blocks = [
 		{/each}
 		</dl>
 	{/if}
-
 {/each}
